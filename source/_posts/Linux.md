@@ -1,0 +1,8 @@
+https://blog.csdn.net/qq_38762479/article/details/89306984
+https://blog.csdn.net/u012588160/article/details/100108895
+https://blog.csdn.net/u010970712/article/details/80042731
+https://docs.oracle.com/javase/specs/jvms/se14/html/index.html
+https://github.com/CyC2018/CS-Notes/blob/master/notes/Java%20%E8%99%9A%E6%8B%9F%E6%9C%BA.md Cs-Notes
+https://www.bilibili.com/read/cv5216534/?spm_id_from=333.788.b_636f6d6d656e74.7 尚硅谷路线图2020
+https://www.cnblogs.com/onepixel/articles/7674659.html 排序算法 
+https://computer.howstuffworks.com/ram.htm RAM工作原理
