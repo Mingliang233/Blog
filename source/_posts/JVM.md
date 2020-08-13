@@ -44,3 +44,31 @@ ClassFile {
 - **Fields**: Any fields in the class
 - **[Methods](https://en.wikipedia.org/wiki/Method_(computing))**: Any methods in the class
 - **Attributes**: Any attributes of the class (for example the name of the sourcefile, etc.)
+
+#### 类的加载过程
+
+1. Loading
+
+   通过类的全限名获取此类的二进制字节流
+
+   将这个字节流所代表的静态存储结构转化为方法区的运行时数据结构
+
+   在内存中生成一个代表这个类的java.lang.Class对象，作为方法区这个类的各种数据的访问入口
+
+2. Linking(Verification => Preparation => Resolution)
+
+   Verification ：
+
+   * 目的在于确保Class文件的字节流中包含信息符合当前虚拟机的要求，保证被加载类的正确性，不会危害虚拟机自身安全。
+   * 主要包括四种验证，文件格式验证，元数据验证，字节码验证，符号引用验证
+
+   Preparation ：
+
+   * 为类变量分配内存并且设置该类变量的默认初始值，即零值。
+
+   Resolution：
+
+   * 讲常量池内的符号引用转换为直接应用的过程。
+   * 事实上，解析操作往往会伴随着JVM在执行完初始化之后再执行。
+
+3. Initialization
